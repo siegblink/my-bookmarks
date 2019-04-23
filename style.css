@@ -45,8 +45,9 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(300px, auto);
   grid-template-areas:
-  'first second'
-  'third second'
+    'first second'
+    'third second'
+    'fourth second';
 }
 
 .col-1 {
@@ -57,4 +58,7 @@ body {
 }
 .col-3 {
   grid-area: third;
+}
+.col-4 {
+  grid-area: fourth;
 }
