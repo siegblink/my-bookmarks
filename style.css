@@ -19,7 +19,10 @@ body {
 .read-list {
   font-weight: 300;
   color: #48dbfb;
-  cursor: pointer;
+}
+
+.header {
+  font-size: 24px;
 }
 
 .bookmark-text {
@@ -44,10 +47,7 @@ body {
   grid-gap: 10px 30px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(300px, auto);
-  grid-template-areas:
-    'first second'
-    'third second'
-    'fourth second';
+  grid-template-areas: 'first second';
 }
 
 .col-1 {
@@ -55,10 +55,4 @@ body {
 }
 .col-2 {
   grid-area: second;
-}
-.col-3 {
-  grid-area: third;
-}
-.col-4 {
-  grid-area: fourth;
 }
